@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'students', static#index
-  
+  get 'students', to: 'static#index'
+
 end
